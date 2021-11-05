@@ -1,0 +1,22 @@
+{
+  "name": "srustamov/http-client",
+  "description": "Library that makes it easy to make guzzle-based http requests",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samir",
+      "email": "rustemovv96@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": ">=7.0.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Srustamov\\HttpClient\\" : "src/"
+    }
+  }
+}
