@@ -1,9 +1,9 @@
 # Php Http Client
 
-- ##Installation
-> ```$ composer require srustamov/http-client```
+## Installation
+```$ composer require srustamov/http-client```
 
-- ##Examples
+## Examples
 ```php 
 <?php
 
