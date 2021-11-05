@@ -1,5 +1,9 @@
 # Php Http Client
 
+
+## Requirements
+- PHP >=**7.1**
+
 ## Installation
 ```$ composer require srustamov/http-client```
 
@@ -68,7 +72,12 @@ $response = Http::create()
 
     //Set Guzzle option
     //->setOption()
-
+    
+    ->when(true,function($http) {
+       // condition code
+    
+    })
+     
     ->post('any url',['any data']);
 
 
